@@ -30,6 +30,10 @@ a:visited {
   transition: all 0.3s ease 0s;
 }
 
+.card:hover {
+  transform: translateY(-5px);
+}
+
 .card__image-container {
   width: 100%;
   padding-top: 56.25%;
@@ -74,4 +78,34 @@ a:visited {
 
 .card__info-project a:hover {
   color: #ececec;
+}
+
+@media only screen and (max-width: 1000px) {
+  .card {
+    grid-column-end: span 6;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  main {
+    gap: 20px;
+  }
+  .card {
+    grid-column-end: span 12;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  main {
+    grid-template-columns: 10px repeat(6, 1fr) 10px;
+    gap: 10px;
+  }
+  .cards {
+    grid-column: 2 / span 6;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 20px;
+  }
+  .card {
+    grid-column-end: span 6;
+  }
 }
