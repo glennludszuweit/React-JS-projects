@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Header from './components/header/Header';
 import Projects from './components/projects/Projects';
+import Footer from './components/footer/Footer';
 import './App.css';
 
 const App = (props) => {
@@ -98,6 +99,7 @@ const App = (props) => {
     <div>
       <Header />
       <Projects projects={projects} />
+      <Footer />
     </div>
   );
 };
