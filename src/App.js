@@ -7,6 +7,22 @@ import './App.css';
 const App = (props) => {
   const [projects] = useState([
     {
+      id: 12,
+      image: require('./images/weatherapp.jpg'),
+      title: 'React Weather App',
+      url: 'http://jsprojects.org/weatherapp/',
+      code:
+        'https://github.com/glennludszuweit/small-react-apps/tree/master/weather-app',
+    },
+    {
+      id: 12,
+      image: require('./images/monsterrolodex.jpg'),
+      title: 'React Monster Rolodex',
+      url: 'http://jsprojects.org/monsterrolodex/',
+      code:
+        'https://github.com/glennludszuweit/small-react-apps/tree/master/monster-rolodex',
+    },
+    {
       id: 11,
       image: require('./images/budgetapp.jpg'),
       title: 'Javascript Budget App',
