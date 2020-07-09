@@ -7,7 +7,7 @@ const Projects = ({ projects }) => {
       <div className='cards'>
         {projects.length < 1 && <li key='empty'>No projects yet!</li>}
         {projects.map((project) => (
-          <div className='card' key={project.id}>
+          <div className='card' key={project.title}>
             <div className='card__image-container'>
               <a href={project.url} target='_blank' rel='noopener noreferrer'>
                 <img src={project.image} alt={project.title} />
