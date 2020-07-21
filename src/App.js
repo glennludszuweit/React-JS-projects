@@ -110,6 +110,13 @@ class App extends Component {
           code:
             'https://github.com/glennludszuweit/small-js-projects/tree/master/bookslist',
         },
+        {
+          image: require('./images/counter.png'),
+          title: 'Javascript Counter',
+          url: 'http://jsprojects.org/counter/',
+          code:
+            'https://github.com/glennludszuweit/small-js-projects/tree/master/counter',
+        },
       ],
     };
   }
