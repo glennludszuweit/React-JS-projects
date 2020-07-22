@@ -117,6 +117,13 @@ class App extends Component {
           code:
             'https://github.com/glennludszuweit/small-js-projects/tree/master/counter',
         },
+        {
+          image: require('./images/jsreviews.png'),
+          title: 'Javascript Reviews',
+          url: 'http://jsprojects.org/jsreviews/',
+          code:
+            'https://github.com/glennludszuweit/small-js-projects/tree/master/jsreviews',
+        },
       ],
     };
   }
