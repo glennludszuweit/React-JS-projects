@@ -55,6 +55,13 @@ class App extends Component {
             'https://github.com/glennludszuweit/small-js-projects/tree/master/dicegame',
         },
         {
+          image: require('./images/calculator.png'),
+          title: 'Javascript Calculator',
+          url: 'http://jsprojects.org/calculator/',
+          code:
+            'https://github.com/glennludszuweit/small-js-projects/tree/master/calculator',
+        },
+        {
           image: require('./images/colorflipper.jpg'),
           title: 'Javascript Color Flipper',
           url: 'http://jsprojects.org/colorflipper/',
