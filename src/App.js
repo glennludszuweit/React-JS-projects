@@ -13,18 +13,10 @@ class App extends Component {
       searchField: '',
       projects: [
         {
-          image: require('./images/weatherapp.jpg'),
-          title: 'React Weather App',
-          url: 'http://jsprojects.org/weatherapp/',
-          code:
-            'https://github.com/glennludszuweit/small-react-apps/tree/master/weather-app',
-        },
-        {
-          image: require('./images/monsterrolodex.jpg'),
-          title: 'React Monster Rolodex',
-          url: 'http://jsprojects.org/monsterrolodex/',
-          code:
-            'https://github.com/glennludszuweit/small-react-apps/tree/master/monster-rolodex',
+          image: require('./images/breakout.png'),
+          title: 'Javascript Breakout Game',
+          url: 'http://jsprojects.org/breakout/',
+          code: 'https://github.com/glennludszuweit/break-out-game',
         },
         {
           image: require('./images/budgetapp.jpg'),
@@ -60,6 +52,20 @@ class App extends Component {
           url: 'http://jsprojects.org/calculator/',
           code:
             'https://github.com/glennludszuweit/small-js-projects/tree/master/calculator',
+        },
+        {
+          image: require('./images/weatherapp.jpg'),
+          title: 'React Weather App',
+          url: 'http://jsprojects.org/weatherapp/',
+          code:
+            'https://github.com/glennludszuweit/small-react-apps/tree/master/weather-app',
+        },
+        {
+          image: require('./images/monsterrolodex.jpg'),
+          title: 'React Monster Rolodex',
+          url: 'http://jsprojects.org/monsterrolodex/',
+          code:
+            'https://github.com/glennludszuweit/small-react-apps/tree/master/monster-rolodex',
         },
         {
           image: require('./images/colorflipper.jpg'),
