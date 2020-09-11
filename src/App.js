@@ -68,6 +68,13 @@ class App extends Component {
             'https://github.com/glennludszuweit/small-react-apps/tree/master/monster-rolodex',
         },
         {
+          image: require('./images/randomcolorgenerator.png'),
+          title: 'Javascript HEX Colors',
+          url: 'http://jsprojects.org/randomcolorgenerator/',
+          code:
+            'https://github.com/glennludszuweit/small-js-projects/tree/master/randomcolorgenerator',
+        },
+        {
           image: require('./images/colorflipper.jpg'),
           title: 'Javascript Color Flipper',
           url: 'http://jsprojects.org/colorflipper/',
